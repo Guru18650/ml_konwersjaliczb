@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ml_konwersjaliczb.MainPage"
+             Title="Zamiana systemów liczbowych">
+
+    <VerticalStackLayout Padding="10">
+        <Label Text="System wejściowy (na przykład binarny 2, dziesiętny 10, szesnastkowy 16)"></Label>
+        <Entry Keyboard="Numeric" Text="2" x:Name="s1"></Entry>
+        <Label Text="System wyjściowy"></Label>
+        <Entry Keyboard="Numeric" Text="10" x:Name="s2"></Entry>
+        <Label Text="Liczba"></Label>
+        <Entry Placeholder="69" x:Name="s3"></Entry>
+        <Button Clicked="Button_Clicked" Text="Zamień"/>
+    </VerticalStackLayout>
+
+</ContentPage>
